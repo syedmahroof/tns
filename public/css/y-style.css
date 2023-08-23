@@ -1,0 +1,49 @@
+img.table-img {
+    border-radius: 5px !important;
+}
+.table-responsive {
+    overflow-x: inherit;
+}
+
+.img-temp-preview{
+    width: auto;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px !important;
+    margin-right: 10px;
+}
+.d-flex-imgs{
+    display: flex;
+    align-items: center;
+}
+
+.d-inline{
+    display: inline-block;
+}
+
+
+
+.w-16-main
+{
+    width: 16% !important;
+}
+.float-right{
+    float: right;
+}
+
+.max-width-button{
+    max-width: 100px;
+}
+
+.symbol-md-60 img{
+    width: 60px !important;
+    height: 60px !important;
+}
+.hide {
+    display: none;
+}
+.mt10{
+    margin-top: 10px;
+}
+
+

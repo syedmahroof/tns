@@ -1,0 +1,81 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .dropdown-menu.show {
+        max-width: 370px;
+    }
+.title h1 {
+    font-size: 13px;
+    line-height: 22px;
+}
+.btn {
+    line-height: 22px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background: #0a2a3b;
+    margin: 10px;
+}
+input.search-input {
+    height: 50px;
+    border: none;
+    width: 150px !important;
+}
+.serdiv {
+    background: #ffff;
+    height: 60px;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+.d-flex.serdiv .btn {
+    margin: 0px;
+    border-radius: 30px;
+    line-height: 40px;
+}
+.d-flex.serdiv .btn span {
+    display: none;
+}
+.mobile-none{display:none;}
+.pc-none{display: block;}
+h6 { font-size: 10px;} 
+.show-sub {
+    position: relative;
+    border-radius: 0px;
+}
+.show-sub a {
+    padding: 4px 15px;
+}
+.overlay a {
+    font-size: 15px;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .mobile-none{display:none;}   
+    .pc-none{display: block;}
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .mobile-none{ display:none;} 
+    .pc-none{display: block;}
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mobile-none{display:block;}
+    .pc-none{display: none;} 
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .mobile-none{display:block;}  
+    .pc-none{display: none;}
+    
+}

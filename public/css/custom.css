@@ -1,0 +1,12 @@
+.custome-table-img{
+    width: 100px !important;
+    height: auto !important;
+    border-radius: 5px !important;
+}
+
+.text-column{
+	max-width: 300px; /* adjust as needed */
+	white-space: nowrap; /* prevent line breaks */
+	overflow: hidden; /* hide overflow text */
+	text-overflow: ellipsis; /* add ellipsis to indicate truncated text */
+}
